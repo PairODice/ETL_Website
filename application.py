@@ -4,7 +4,7 @@ from flask import Flask, render_template, Response, request
 import random
 
 app = Flask(__name__)
-app = application
+application = app
 
 @app.route("/")
 def home():
