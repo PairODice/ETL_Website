@@ -6,6 +6,7 @@ import random
 app = Flask(__name__)
 application = app
 
+
 @app.route("/")
 def home():
     return render_template("index1.html")
