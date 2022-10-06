@@ -6,6 +6,7 @@ import random
 app = Flask(__name__)
 application = app
 
+print('hey guys')
 
 @app.route("/")
 def home():
